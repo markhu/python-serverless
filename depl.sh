@@ -11,10 +11,9 @@ aws iam get-user | jq '.User.Arn'
 
 ## deploy faster later
 
-    serverless deploy function --function ticker
+    serverless deploy function --function tick
 
-## tested at
+## test at
 
-# curl -s "https://p89vtcmaej.execute-api.us-west-2.amazonaws.com/dev/?alt=altMessage++here" | jq '{altMess,message}'
-curl -s "https://bf9pgyhdcc.execute-api.us-west-2.amazonaws.com/dev/hello?alt=hihihi+YOYO" | jq '{altMess,message}'
+curl -s "https://4aricmtqvl.execute-api.us-west-2.amazonaws.com/dev/ticker/" | jq .
 
