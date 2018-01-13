@@ -1,8 +1,12 @@
 
-# requirements
+# ticker buffer
 
-The `serverless` npm from serverless.com
-AWS config in ~/.aws/
+Inspired by https://netdevops.me/2017/building-aws-lambda-with-python-s3-and-serverless/
+
+## requirements
+
+* The `serverless` npm from serverless.com
+* AWS config in ~/.aws/
 
 ## initial creation
 
