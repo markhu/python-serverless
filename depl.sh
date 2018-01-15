@@ -16,4 +16,6 @@ aws iam get-user | jq '.User.Arn'
 ## test at
 
 curl -s "https://4aricmtqvl.execute-api.us-west-2.amazonaws.com/dev/ticker/" | jq .
+curl -s "https://jvbxwa81w5.execute-api.us-west-2.amazonaws.com/dev/ticker/" | jq .
+
 

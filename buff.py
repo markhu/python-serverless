@@ -3,12 +3,15 @@
 
 
 import json
+import os
 # import requests
 
 
 def tick(event, context):
     body = {
-        "message": "Go Serverless v1.0! Your function executed successfully!", "appendage": "useless"
+        "message": "Go Serverless v1.0! Your function executed successfully!",
+        "env": dict(os.environ),
+        "appendage": "useless"
       # "input": event
     }
 
